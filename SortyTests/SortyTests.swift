@@ -20,7 +20,7 @@ class SortyTests: XCTestCase {
 
 		sequence = []
 		
-		for idx in (0..1000) {
+		for idx in (0..300) {
 			sequence.append(Double( arc4random_uniform(randomness) ) / Double(randomness));
 		}
     }
@@ -79,6 +79,4 @@ class SortyTests: XCTestCase {
 			sort(sequenceToSort)
 		}
 	}
-	
-	
 }
